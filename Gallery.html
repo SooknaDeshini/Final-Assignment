@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <div class="full-img" id="fullImgBox">
+      <img src="./Images/Beautiful Faces.jpg" id="fullImg">
+      <span onclick="closefullImg()">X</span>
+    </div>
+
+    <div class="img-gallery">
+
+     <img src="./Images/Beautiful Faces.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/Eye Brush.jpg"  onclick="openFullImg(this.src)" >
+     <img src="./Images/eye pulling.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/Eyeliner.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/Lady1.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/lady2.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/lady3.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/Makeup1.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/MakeUp2.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/Hair Decor.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/Hair Decor1.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/Hair Wash.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/Hair.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/HAir1.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/WhatsApp Image 2023-08-29 at 20.13.06.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/White Brush.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/Nails.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/Nails1.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/Nails2.jpg" onclick="openFullImg(this.src)" >
+     <img src="./Images/Foot Polish.jpg" onclick="openFullImg(this.src)" >
+     
+    </div>
+    
+    <script>
+
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
+
+    function closefullImg(){
+        fullImgBox.style.display = "none";
+    }
+    </script>
+</body>
+</html>

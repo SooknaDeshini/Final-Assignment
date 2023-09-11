@@ -1,0 +1,30 @@
+body {
+    background-image: url('./Images/Rose\ Background.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+}
+
+input, textarea {
+    opacity: 0.7; 
+}
+
+button {
+    background-color: #ED16BE;
+    color: #fff; 
+    padding: 10px 20px;
+    border: none; 
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    /* CSS rules for screens up to 768 pixels wide (e.g., mobile) */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules for screens between 769 and 1024 pixels wide (e.g., tablets) */
+}
+
+@media (min-width: 1025px) {
+    /* CSS rules for screens wider than 1024 pixels (e.g., desktop) */
+}

@@ -1,0 +1,43 @@
+.nav-pills
+.nav-link{color: #ED16BE;
+          font-size: 20px;}
+
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.fs-4{color:#ED16BE;
+      font-family: Corinthia;
+      font-size: 50px;}
+
+      footer {
+        background-color: #ED16BE; 
+        color: #fff; 
+        padding: 15px 0; 
+        text-align: center;
+        font-family: Josefin Sans;
+        font-size:20px; 
+    }
+    
+   
+    .rectangular-box {
+        background-color: #ED16BE; 
+        color: white; 
+        padding: 5px; 
+        width: 100%; 
+    }
+
+  @media (max-width: 768px) {
+        /* CSS rules for screens up to 768 pixels wide (e.g., mobile) */
+    }
+    
+    @media (min-width: 769px) and (max-width: 1024px) {
+        /* CSS rules for screens between 769 and 1024 pixels wide (e.g., tablets) */
+    }
+    
+    @media (min-width: 1025px) {
+        /* CSS rules for screens wider than 1024 pixels (e.g., desktop) */
+    }
